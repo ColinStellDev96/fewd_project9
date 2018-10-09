@@ -1,0 +1,52 @@
+.top-nav {
+    @include flex();
+    justify-content: space-between;
+    background-color: $cigar;
+    height: em(75px);
+    width: auto;
+    padding-top: em(10px);
+}
+
+.logo {
+    height: em(50px);
+    margin-left: em(10px);
+}
+
+.logo-text {
+    display: inline-block;
+    font-family: $font-family--logoPrimary;
+    font-size: em(20px);
+    color: $white;
+    text-align: center;
+}
+
+.nav-user {
+    @include flex();
+}
+
+.bell-icon svg {
+    margin: em(10px);
+    display: inline-block;
+    height: em(25px);
+    fill: $white;
+}
+
+.main-user {
+    margin-right: em(20px);
+}
+
+.main-user img {
+    display: inline-block;
+    height: em(50px);
+    margin: 0 auto;
+    border-radius: em(50px);
+}
+
+.main-user p {
+    margin: 0;
+    margin-top: em(3px);
+    color: $white;
+    text-align: center;
+    font-size: em(14px);
+}
+
