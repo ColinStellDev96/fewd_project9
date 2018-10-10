@@ -301,24 +301,32 @@ body {
   background-color: #f8f7f7;
   font-family: "Crimson Text", serif; }
 
+/* TOP NAV STYLES */
 .top-nav {
   display: flex;
   justify-content: space-between;
   background-color: #362919;
-  height: 4.6875em;
+  height: 3.75em;
   width: auto;
   padding-top: 0.625em; }
 
+.logo-section {
+  display: table; }
+
 .logo {
+  vertical-align: middle;
+  display: table-cell;
   height: 3.125em;
   margin-left: 0.625em; }
 
 .logo-text {
-  display: inline-block;
+  vertical-align: middle;
+  display: table-cell;
   font-family: "Homemade Apple", cursive;
-  font-size: 1.25em;
+  font-size: 1.125em;
   color: #f8f7f7;
-  text-align: center; }
+  text-align: center;
+  padding-left: 0.625em; }
 
 .nav-user {
   display: flex; }
@@ -326,23 +334,38 @@ body {
 .bell-icon svg {
   margin: 0.625em;
   display: inline-block;
-  height: 1.5625em;
+  height: 1.875em;
   fill: #f8f7f7; }
 
 .main-user {
-  margin-right: 1.25em; }
+  display: table;
+  margin: 0 0.625em; }
 
-.main-user img {
-  display: inline-block;
+.main-user-img {
+  vertical-align: middle;
+  display: table-cell;
   height: 3.125em;
-  margin: 0 auto;
   border-radius: 3.125em; }
 
-.main-user p {
-  margin: 0;
-  margin-top: 0.1875em;
+.main-user-name {
+  vertical-align: middle;
+  display: table-cell;
   color: #f8f7f7;
   text-align: center;
-  font-size: 0.875em; }
+  font-size: 0.875em;
+  padding-left: 0.3125em; }
+
+/* SIDE NAV STYLES */
+.side-nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: #e0d4ba;
+  height: 3.75em;
+  width: auto; }
+
+.side-nav-icon {
+  fill: #362919;
+  height: 2.5em;
+  padding: 0.625em 0.625em; }
 
 /*# sourceMappingURL=style.css.map */

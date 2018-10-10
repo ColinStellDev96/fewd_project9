@@ -1,23 +1,33 @@
+/* TOP NAV STYLES */
+
 .top-nav {
     @include flex();
     justify-content: space-between;
     background-color: $cigar;
-    height: em(75px);
+    height: em(60px);
     width: auto;
     padding-top: em(10px);
 }
 
+.logo-section {
+    display: table;
+}
+
 .logo {
+    vertical-align: middle;
+    display: table-cell;
     height: em(50px);
     margin-left: em(10px);
 }
 
 .logo-text {
-    display: inline-block;
+    vertical-align: middle;
+    display: table-cell;
     font-family: $font-family--logoPrimary;
-    font-size: em(20px);
+    font-size: em(18px);
     color: $white;
     text-align: center;
+    padding-left: em(10px);
 }
 
 .nav-user {
@@ -27,26 +37,44 @@
 .bell-icon svg {
     margin: em(10px);
     display: inline-block;
-    height: em(25px);
+    height: em(30px);
     fill: $white;
 }
 
 .main-user {
-    margin-right: em(20px);
+    display: table;
+    margin: 0 em(10px);
 }
 
-.main-user img {
-    display: inline-block;
+.main-user-img {
+    vertical-align: middle;
+    display: table-cell;
     height: em(50px);
-    margin: 0 auto;
     border-radius: em(50px);
 }
 
-.main-user p {
-    margin: 0;
-    margin-top: em(3px);
+.main-user-name {
+    vertical-align: middle;
+    display: table-cell;
     color: $white;
     text-align: center;
     font-size: em(14px);
+    padding-left: em(5px);
+}
+
+/* SIDE NAV STYLES */
+
+.side-nav {
+    @include flex();
+    justify-content: space-between;
+    background-color: $tan-light;
+    height: em(60px);
+    width: auto;
+}
+
+.side-nav-icon {
+    fill: $cigar;
+    height: em(40px);
+    padding: em(10px) em(10px);
 }
 
