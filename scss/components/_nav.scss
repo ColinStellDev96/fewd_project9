@@ -34,7 +34,26 @@
     @include flex();
 }
 
-.bell-icon svg {
+.bell-icon {
+   position: relative; 
+}
+
+.bell-icon[data-badge]::after {
+    content: attr(data-badge);
+    position: absolute;
+    top: em(10px);
+    right: em(15px);
+    font-size: em(14px);
+    background: $tan-light;
+    color: $cigar;
+    width: em(15px);
+    height: em(15px);
+    text-align: center;
+    line-height: em(16px);
+    border-radius: 50%;
+}
+
+#bell {
     margin: em(10px);
     display: inline-block;
     height: em(30px);
