@@ -1,2 +1,51 @@
+.dash-search {
+    @include flex();
+    justify-content: space-between
+}
 
+.dash-search h3 {
+    margin: em(10px) 0;
+    border-right: solid em(1px) $cigar;
+    padding-top: em(3px);
+    padding-right: em(10px);
+}
 
+.search-input {
+    position: relative;
+    margin: em(15px) 0;
+    font-size: em(14px);
+}
+
+.search-input .fa-search {
+    position: absolute;
+    top: em(8px);
+    right: em(7px);
+    font-size: em(14px);
+    color: $cigar;
+}
+
+#site-search {
+    width: em(250px);
+}
+
+.alert {
+    @include flex();
+    justify-content: space-between;
+    width: 97%;
+    margin: em(10px) em(5px);
+    padding: em(6px) em(4px);
+    font-size: 12;
+    color: $tan-light;
+    background-color: $cigar;
+    border-radius: em(4px);
+}
+
+.alert span {
+    font-weight: bold;
+}
+
+.alert i {
+    margin-left: em(20px);
+    margin-right: em(4px);
+    margin-top: em(2px);
+}

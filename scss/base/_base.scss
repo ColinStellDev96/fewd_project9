@@ -1,4 +1,9 @@
 body {
     background-color: $white;
     font-family: $font-family--primary;
+    color: $grey;
+}
+
+.main-container {
+    margin: 0 em(10px);
 }

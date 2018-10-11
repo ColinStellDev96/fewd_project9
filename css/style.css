@@ -299,7 +299,11 @@ template {
 
 body {
   background-color: #f8f7f7;
-  font-family: "Crimson Text", serif; }
+  font-family: "Crimson Text", serif;
+  color: #2f3030; }
+
+.main-container {
+  margin: 0 0.625em; }
 
 /* TOP NAV STYLES */
 .top-nav {
@@ -367,5 +371,49 @@ body {
   fill: #362919;
   height: 2.5em;
   padding: 0.625em 0.625em; }
+
+.dash-search {
+  display: flex;
+  justify-content: space-between; }
+
+.dash-search h3 {
+  margin: 0.625em 0;
+  border-right: solid 0.0625em #362919;
+  padding-top: 0.1875em;
+  padding-right: 0.625em; }
+
+.search-input {
+  position: relative;
+  margin: 0.9375em 0;
+  font-size: 0.875em; }
+
+.search-input .fa-search {
+  position: absolute;
+  top: 0.5em;
+  right: 0.4375em;
+  font-size: 0.875em;
+  color: #362919; }
+
+#site-search {
+  width: 15.625em; }
+
+.alert {
+  display: flex;
+  justify-content: space-between;
+  width: 97%;
+  margin: 0.625em 0.3125em;
+  padding: 0.375em 0.25em;
+  font-size: 12;
+  color: #e0d4ba;
+  background-color: #362919;
+  border-radius: 0.25em; }
+
+.alert span {
+  font-weight: bold; }
+
+.alert i {
+  margin-left: 1.25em;
+  margin-right: 0.25em;
+  margin-top: 0.125em; }
 
 /*# sourceMappingURL=style.css.map */
