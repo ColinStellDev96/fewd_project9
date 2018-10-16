@@ -19,7 +19,7 @@ let trafficChart = new Chart(traffic, {
     data: {
         labels: hourlyLables,
         datasets: [{
-            label: '# of Votes',
+            label: '',
             data: hourlyData,
             backgroundColor: [
                 'rgba(224, 212, 186, 0.6)',
@@ -40,16 +40,19 @@ let trafficChart = new Chart(traffic, {
             borderWidth: 1
         }]
     },
+    options: {
+        legend: {display: false},
+    } 
 }) 
 
 // DAILY CHART
 
-let dailyChart = new Chart(daily, {
+let dailyChart = new Chart(daily, { 
     type: 'bar',
     data: {
         labels: dailyLables,
         datasets: [{
-            label: null,
+            label: '',
             data: dailyData,
             backgroundColor: [
                 'rgba(224, 212, 186, 0.6)',
@@ -72,6 +75,9 @@ let dailyChart = new Chart(daily, {
             borderWidth: 1
         }]
     },
+    options: {
+        legend: {display: false},
+    } 
 })
 
 // USERS CHART
@@ -79,19 +85,19 @@ let dailyChart = new Chart(daily, {
 let usersChart = new Chart(users, {
     type: 'doughnut',
     data: {
-                datasets: [{
-                    data: [70, 20, 10],
-                    backgroundColor: [
-                        'rgba(54, 41, 25, 0.8)',
-                        'rgba(224, 212, 186, 0.6)',
-                        'rgb(209, 115, 0, 0.6)'
-                    ],
-                    borderColor: [
-                        'rgba(55, 41,25,1)',
-                        'rgba(55, 41,25,1)',
-                        'rgba(55, 41,25,1)',
-                    ],
-                    borderWidth: 1
+            datasets: [{
+                data: [70, 20, 10],
+                backgroundColor: [
+                    'rgba(54, 41, 25, 0.8)',
+                    'rgba(224, 212, 186, 0.6)',
+                    'rgb(209, 115, 0, 0.6)'
+                ],
+                borderColor: [
+                    'rgba(55, 41,25,1)',
+                    'rgba(55, 41,25,1)',
+                    'rgba(55, 41,25,1)',
+                ],
+                borderWidth: 1
                 }],
                 labels: [
                     'Phones',
