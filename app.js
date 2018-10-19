@@ -104,6 +104,10 @@ let usersChart = new Chart(users, {
                     'Tablets',
                     'Desktop'
                 ],
-                
     },
+    options: {
+        legend: {postion: 'right'},
+    }
 }) 
+
+// Chart.defaults.global.legend.display = false;
