@@ -106,8 +106,19 @@ let usersChart = new Chart(users, {
                 ],
     },
     options: {
-        legend: {postion: 'right'},
+        legend: {
+            position: 'right',
+            labels: {
+                padding: 30
+            },
+        },
+        layout: {
+            padding: {
+              left: 0,
+              right: 10,
+              top: 0,
+              bottom: 20
+            }
+        }   
     }
 }) 
-
-// Chart.defaults.global.legend.display = false;

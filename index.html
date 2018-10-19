@@ -120,9 +120,32 @@
                         <i class="fas fa-times close-alert"></i>
                     </p>
                 
-                <canvas id="trafficChart"></canvas>
-                <canvas id="dailyChart"></canvas>
-                <canvas id="usersChart"></canvas>
+                <div class="chart-section">
+                    <div class="traffic-nav">
+                        <h5 class="section-head">Traffic</h5>
+                        <ul>
+                            <li class="hourly">Hourly</li>
+                            <li class="daily">Daily</li>
+                            <li class="weekly">Weekly</li>
+                            <li class="monthly">Monthly</li>
+                        </ul>
+                    </div>
+                    <canvas id="trafficChart"></canvas>
+                </div>
+
+                
+
+                <div class="secondary-traffic">
+                        <div class="chart-section">
+                            <h5 class="section-head">Daily Traffic</h5>
+                            <canvas id="dailyChart"></canvas>
+                        </div>
+                        <div class="chart-section">
+                            <h5 class="section-head">Mobile Users</h5>
+                            <canvas id="usersChart"></canvas>
+                        </div>
+                </div>
+                
 
             </div>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.2/Chart.bundle.min.js"></script>

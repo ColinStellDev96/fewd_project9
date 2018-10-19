@@ -311,7 +311,7 @@ body {
   justify-content: space-between;
   background-color: #362919;
   height: 3.75em;
-  width: auto;
+  width: 100%;
   padding-top: 0.625em; }
 
 .logo-section {
@@ -412,7 +412,7 @@ body {
   color: #362919; }
 
 #site-search {
-  width: 15.625em; }
+  width: 14.375em; }
 
 .alert {
   display: flex;
