@@ -366,7 +366,7 @@ body {
   vertical-align: middle;
   display: table-cell;
   height: 3.125em;
-  border-radius: 3.125em; }
+  border-radius: 0.625em; }
 
 .main-user-name {
   vertical-align: middle;
@@ -450,7 +450,8 @@ body {
 
 #social-stats {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-bottom: 0.625em; }
 
 .social-widget {
   display: flex;
@@ -484,5 +485,13 @@ body {
 
 .social-content p {
   font-size: 1.5em; }
+
+.member-section {
+  display: flex; }
+
+.member-section img {
+  height: 3.75em;
+  width: 3.75em;
+  border-radius: 0.625em; }
 
 /*# sourceMappingURL=style.css.map */

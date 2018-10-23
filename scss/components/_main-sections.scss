@@ -71,6 +71,7 @@
 #social-stats {
     @include flex();
     justify-content: space-between;
+    margin-bottom: em(10px);
 }
 
 .social-widget {
@@ -110,4 +111,16 @@
 
 .social-content p {
     font-size: em(24px);
+}
+
+// MEMBERS SECTION
+
+.member-section {
+    @include flex();
+}
+
+.member-section img {
+    height: em(60px);
+    width: em(60px);
+    border-radius: em(10px);
 }
