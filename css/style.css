@@ -487,11 +487,53 @@ body {
   font-size: 1.5em; }
 
 .member-section {
-  display: flex; }
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #362919;
+  margin-bottom: 0.625em; }
 
 .member-section img {
   height: 3.75em;
   width: 3.75em;
   border-radius: 0.625em; }
+
+.member-info {
+  width: 11.25em; }
+
+.member-info h5 {
+  margin-bottom: 0;
+  color: #362919; }
+
+.member-info p {
+  margin-top: 0; }
+
+.date-join {
+  font-size: 0.8125em;
+  font-weight: bold;
+  color: #d17300; }
+
+.activity-section {
+  display: flex;
+  border-bottom: 1px solid #362919;
+  margin-bottom: 0.625em; }
+
+.activity-section img {
+  height: 3.75em;
+  width: 3.75em;
+  border-radius: 0.625em;
+  margin-bottom: 0.625em; }
+
+.activity-info {
+  margin-left: 0.625em; }
+
+.member-activity {
+  margin-bottom: 0;
+  font-size: 0.875em; }
+
+.member-time {
+  margin-top: 0;
+  font-size: 0.8125em;
+  font-weight: bold;
+  color: #d17300; }
 
 /*# sourceMappingURL=style.css.map */

@@ -117,10 +117,63 @@
 
 .member-section {
     @include flex();
+    justify-content: space-between;
+    border-bottom: 1px solid $cigar;
+    margin-bottom: em(10px);
 }
 
 .member-section img {
     height: em(60px);
     width: em(60px);
     border-radius: em(10px);
+}
+
+.member-info {
+    width: em(180px);
+}
+
+.member-info h5 {
+    margin-bottom: 0;
+    color: $cigar;
+}
+
+.member-info p {
+    margin-top: 0;
+}
+
+.date-join {
+    font-size: em(13px);
+    font-weight: bold;
+    color: $orange;
+}
+
+// RECENT ACTIVITY
+
+.activity-section {
+    @include flex();
+    border-bottom: 1px solid $cigar;
+    margin-bottom: em(10px);
+}
+
+.activity-section img {
+    height: em(60px);
+    width: em(60px);
+    border-radius: em(10px);
+    margin-bottom: em(10px);
+}
+
+.activity-info {
+    margin-left: em(10px);
+}
+
+.member-activity {
+    margin-bottom: 0;
+    font-size: em(14px);
+}
+
+.member-time {
+    margin-top: 0;
+    font-size: em(13px);
+    font-weight: bold;
+    color: $orange;
 }
